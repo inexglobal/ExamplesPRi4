@@ -19,11 +19,10 @@ while 1:
         str_date=datenow.strftime("%d/%m/%Y")
         str_time=datenow.strftime("%H:%M:%S")
         last_sec=datenow.second
+        print(datenow.strftime("%A : %d/%m/%Y , %H:%M:%S"))
         with canvas(device) as draw:
-            draw.text((0, 0),str_weekday,font=font2, fill="white")
+            draw.text((0, 0),str_weekday,font=font2, fill=1)
             draw.text((0, 18),str_time,font=font2, fill=1)
             draw.text((0, 40),str_date,font=font2, fill=1)
-
-
 
 

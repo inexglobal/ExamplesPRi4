@@ -11,6 +11,6 @@ font_path = "/home/pi101/Desktop/ExamplesPRi4/fonts/THSarabun.ttf"
 font2 = ImageFont.truetype(font_path, 24)
 
 with canvas(device) as draw:
-    draw.text((x, 0), "Hello World",font=font2, fill="white")
-    draw.text((x, 30), "สวัสดีชาวโลก",font=font2, fill="white")
-
+    draw.text((0, 0), "Hello World",font=font2, fill="white")
+    draw.text((0, 30), "สวัสดีชาวโลก",font=font2, fill="white")
+sleep(5)
