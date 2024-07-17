@@ -7,7 +7,7 @@ from time import sleep
 serial = i2c(port=1, address=0x3C)
 device = ssd1306(serial, rotate=0)
 
-font_path = "/home/pi101/Desktop/ExamplesPRi4/fonts/THSarabun.ttf"
+font_path = "/home/pi101/Desktop/ExamplesRPi4/fonts/THSarabun.ttf"
 font2 = ImageFont.truetype(font_path, 24)
 
 with canvas(device) as draw:
